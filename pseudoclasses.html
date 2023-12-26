@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pesudoclasses</title>
+    <style>
+div {
+    display: inline-block; /* vao ficar caixas separadas em linha horizontal*/
+    background-color: aqua;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+div:hover {
+    background-color: blueviolet; /*passando o mouse por cima hehe*/
+}
+
+div > p {
+display: none;
+}
+div:hover > p {  /* esse simbolo > eh como se fose um "filho" */
+    display: block;
+    color: white;
+}
+
+
+    </style>
+</head>
+<body>
+    <div>passe o mouse
+        <p>surbresa</p>
+    </div>
+    <div>02</div>
+<div>03</div>
+<!--div sao caixas divisorias!!-->
+<p><a href="index.html">voltar pra homepage</a></p>
+
+</body>
+</html>

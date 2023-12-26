@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   color: blueviolet;
+   margin: 7px;
+}
+header {
+    width: 600px;
+    background-color: rgb(255, 77, 234);
+    padding: 10px;
+    margin: 0px;
+    width: auto;
+}
+
+main {
+    background-color: antiquewhite;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 15px black;
+    border-style: dashed;
+    color: black;
+    
+   
+}
+
+article > aside {
+    background-color: aqua;
+    padding: -1px;
+    margin: auto;
+}
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+text-align: center;
+background-color: brown;
+color: white;
+padding: 1px;
+
+}
+
+nav {
+    background-color: beige;
+    padding: 3px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+nav > a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+margin-left: 10px;
+    transition-duration: .5s;
+    
+}
+
+nav > a:hover {
+    color: brown;
+    background-color: blue;
+   padding: auto;
+}
+
+
+::selection {
+    color: white;
+    background-color: brown;
+}
+
+h2#principal {
+    border: 20px solid transparent;
+    padding: 10px;
+    border-image-source: url('df.jpg');
+    border-image-slice: 20;
+
+
+}
